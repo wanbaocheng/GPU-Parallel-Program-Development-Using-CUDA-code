@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.10)
+SET(CMAKE_CUDA_COMPILER /usr/local/cuda/bin/nvcc)
+add_subdirectory(CPU-CODE/C1-imflip)
+add_subdirectory(CUDA-CODE)
